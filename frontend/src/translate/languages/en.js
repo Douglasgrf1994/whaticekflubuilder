@@ -249,6 +249,7 @@ const messages = {
 			mainDrawer: {
 				listItems: {
 					dashboard: "Dashboard",
+					systemUpdate: "System update",
 					connections: "Connections",
 					tickets: "Tickets",
 					contacts: "Contacts",

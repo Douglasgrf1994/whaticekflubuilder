@@ -868,6 +868,7 @@ const messages = {
           kanban: "Kanban",
           prompts: "Talk.Ai",
           allConnections: "Admin conexiones",
+          systemUpdate: "Actualización del sistema",
         },
         appBar: {
           user: {
