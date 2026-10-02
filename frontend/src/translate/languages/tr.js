@@ -599,6 +599,7 @@ const messages = {
       mainDrawer: {
         listItems: {
           dashboard: "Pano",
+          systemUpdate: "Sistem güncellemesi",
           connections: "Bağlantılar",
           tickets: "Sohbetler",
           contacts: "Kişiler",

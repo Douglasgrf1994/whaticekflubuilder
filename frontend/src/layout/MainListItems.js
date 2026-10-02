@@ -36,6 +36,7 @@ import AnnouncementIcon from "@material-ui/icons/Announcement";
 import ForumIcon from "@material-ui/icons/Forum";
 import LocalAtmIcon from "@material-ui/icons/LocalAtm";
 import BusinessIcon from "@material-ui/icons/Business";
+import SystemUpdateAltIcon from "@material-ui/icons/SystemUpdateAlt";
 import {
   AllInclusive,
   AttachFile,
@@ -852,6 +853,15 @@ const MainListItems = ({ collapsed, drawerClose }) => {
                 to="/companies"
                 primary={i18n.t("mainDrawer.listItems.companies")}
                 icon={<BusinessIcon />}
+                tooltip={collapsed}
+              />
+            )}
+
+            {user.super && (
+              <ListItemLink
+                to="/system-update"
+                primary={i18n.t("mainDrawer.listItems.systemUpdate")}
+                icon={<SystemUpdateAltIcon />}
                 tooltip={collapsed}
               />
             )}

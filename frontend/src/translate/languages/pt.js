@@ -892,6 +892,7 @@ const messages = {
           kanban: "Kanban",
           prompts: "Talk.Ai",
           allConnections: "Gerenciar conexões",
+          systemUpdate: "Atualização do sistema",
           reports: "Relatórios",
           management: "Gerência"
         },
